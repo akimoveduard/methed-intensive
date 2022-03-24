@@ -84,6 +84,10 @@ h1, h2, h3, p {
   overflow: hidden;
 }
 
+.hide {
+  display: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
