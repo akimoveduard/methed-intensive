@@ -184,6 +184,22 @@
   opacity: 0.6;
 }
 
+.preload {
+  background-image: url('../image/preload.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  width: 180px;
+  height: 180px;
+  animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
 @media screen and (max-width: 768px) {
   
   .title {
